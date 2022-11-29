@@ -11,3 +11,7 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+# Issues
+1. ChainlinkVRF not yet implemented.
+2. UI can be improved.
+3. IPFS not yet implemented.
