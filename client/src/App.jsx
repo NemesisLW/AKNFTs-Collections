@@ -12,6 +12,7 @@ const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = 'https://testnets.opensea.io/collection/akforevernft-v2';
 const TOTAL_MINT_COUNT = 4500;
 
+//Ethereum Object
 const getEthereumObject = () => window.ethereum;
 
 const App = () => {
@@ -58,7 +59,7 @@ const App = () => {
     }
   };
 
-
+  //Loading Animation while Minting NFTs.
   const loading = () => (
     <div>
     <p class="mint-count">Your NFT is on the way ....</p>
@@ -98,6 +99,7 @@ const App = () => {
   };
 
   
+  //Calling Contract to Mint NFT
   const askContractToMintNft = async () => {
 
     try {
@@ -127,7 +129,8 @@ const App = () => {
     }
 }
 
- 
+  
+  // Catch Events emitted by the contract
   const setupEventListener = async () => {
     try {
       const { ethereum } = window;
