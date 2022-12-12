@@ -15,9 +15,9 @@ contract BuildSpaceNFT is ERC721URIStorage {
 
     string baseSvg = "<svg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='xMinYMin meet' viewBox='0 0 350 350'><style>.base { fill: white; font-family: serif; font-size: 24px; }</style><rect width='100%' height='100%' fill='black' /><text x='50%' y='50%' class='base' dominant-baseline='middle' text-anchor='middle'>";
 
-    string[] firstWords = ["My", "Mine", "Ours", "Atal", "Hunu", "Puchu", "Kuchu", "Babui", "Babu", "Amar", "SudhuiAmar", "EkmatroAmar","Tomar", "Yours", "Your", "Daddy's", "I"];
-    string[] secondWords = ["Doggy", "Doggu", "Puchi", "Kuchi", "Kuchu", "Pussy", "Princess", "Baby", "Sona", "Sonai", "Babuli", "Puchkuli", "Bholu", "Beautiful", "Cute", "Sweet", "Little", "Love"];
-    string[] thirdWords = ["SonaMona", "Puntuli", "Sundori", "Chumu", "Cutie", "Mona", "ChanderKona", "Moonlight", "Noor", "GulKand", "Gulab", "Meye", "", "Girl", "Princess", "Everything", "You", "K"];
+    string[] firstWords = [INSERT_AS_MANY_STRINGS_YOU_WANT];
+    string[] secondWords = [INSERT_AS_MANY_STRINGS_YOU_WANT];
+    string[] thirdWords = [INSERT_AS_MANY_STRINGS_YOU_WANT];
  
     event NewNFTMinted(address _sender, uint256 _tokenId);
 
